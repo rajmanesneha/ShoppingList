@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Add Name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="10dp" />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/addItemTxt" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:text="Add"
+        android:id="@+id/button_addItem"
+        android:layout_below="@+id/addItemTxt"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/addItemTxt"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView">
+        <TextView
+            android:text="Category:"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textQuantity"
+            android:paddingStart="10dp"
+            android:paddingTop="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:paddingLeft="10dp" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerCategory"
+            android:layout_centerHorizontal="true">
+
+        </Spinner>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

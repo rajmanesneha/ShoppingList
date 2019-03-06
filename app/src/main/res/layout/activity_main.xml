@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/buttonAddProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:onClick="btnClickAct3"
+        android:text="Add Products"
+        android:layout_below="@+id/buttonViewList"
+        android:layout_alignLeft="@+id/buttonCreateList"
+        android:layout_alignStart="@+id/buttonCreateList" />
+
+    <Button
+        android:id="@+id/buttonCreateList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:onClick="btnClickAct1"
+        android:text="Create List"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonViewList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:onClick="btnClickAct2"
+        android:text="View List"
+        android:layout_below="@+id/buttonCreateList"
+        android:layout_centerHorizontal="true" />
+
+    <!--<Button
+        android:id="@+id/buttonEditProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:onClick="btnClickAct3"
+        android:text="Edit Products"
+        android:layout_below="@+id/buttonAddProduct"
+        android:layout_centerHorizontal="true" />
+  -->
+
+</RelativeLayout>

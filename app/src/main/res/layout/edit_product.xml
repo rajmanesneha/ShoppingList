@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/editItemTxt"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:text="Name" />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/editItemTxt"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/editItemEtxt" />
+
+
+    <Button
+        android:id="@+id/button_editItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editItemEtxt"
+        android:layout_marginTop="116dp"
+        android:layout_toEndOf="@+id/editItemTxt"
+        android:layout_toRightOf="@+id/editItemTxt"
+        android:text="Edit" />
+
+
+    <TextView
+        android:id="@+id/textQuantity"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:text="Quantity"
+        android:layout_below="@+id/editItemEtxt"
+        android:layout_toLeftOf="@+id/editItemEtxt"
+        android:layout_toStartOf="@+id/editItemEtxt" />
+
+    <EditText
+        android:id="@+id/edtQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editItemEtxt"
+        android:layout_alignLeft="@+id/editItemEtxt"
+        android:layout_alignRight="@+id/editItemEtxt"
+        android:layout_alignStart="@+id/editItemEtxt"
+        android:layout_alignTop="@+id/textQuantity"></EditText>
+
+
+
+</RelativeLayout>
